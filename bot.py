@@ -12,10 +12,10 @@ downloads = './downloads/{}/'
 #Button
 START_BUTTONS=[
     [
-        InlineKeyboardButton('Source', url='https://github.com/X-Gorn/TikTokDL'),
-        InlineKeyboardButton('Project Channel', url='https://t.me/xTeamBots'),
+        InlineKeyboardButton('Source', url='https://github.com/'),
+        InlineKeyboardButton('Project Channel', url='https://t.me/'),
     ],
-    [InlineKeyboardButton('Author', url='https://t.me/xgorn')],
+    [InlineKeyboardButton('Author', url='https://t.me/')],
 ]
 
 DL_BUTTONS=[
@@ -23,7 +23,7 @@ DL_BUTTONS=[
         InlineKeyboardButton('No Watermark', callback_data='nowm'),
         InlineKeyboardButton('Watermark', callback_data='wm'),
     ],
-    [InlineKeyboardButton('Audio', callback_data='audio')],
+    [InlineKeyboardButton('Just Audio', callback_data='audio')],
 ]
 
 
